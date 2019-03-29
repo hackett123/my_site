@@ -18,3 +18,6 @@ def projects(request):
 
 def career(request):
     return render(request, "career.html", {})
+
+def blog(request):
+    return render(request, "blog.html", {})

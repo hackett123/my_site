@@ -1,54 +1,42 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Michael Hackett</title>
-    <link rel="stylesheet" href="https://unpkg.com/bulmaswatch/lux/bulmaswatch.min.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-</head>
-
-<body>
-    <section class="section">
-        <div class="container">
-            <h1 class="title">
-                Michael Hackett
-            </h1>
-            <div class="columns">
-                <div class="column">
-                    <div class="box">
-                        <a href="/about">About Me </a>
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="box">
-                        <a href="/teaching">Teaching </a>
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="box">
-                        <a href="/music">Music </a>
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="box">
-                        <a href="/projects">Projects </a>
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="box">
-                        <a href="/career">Career </a>
-                    </div>
-                </div>
-            </div>
-
-            <p class="subtitle">
-                My name is Michael Hackett, I'm a sophomore at the University of Pennsylvania studying computer science
-                and cognitive science.
-            </p>
+{% extends 'master.html' %}
+{% block body %}
+<h1 class="title">
+    Michael Hackett
+</h1>
+<div class="columns">
+    <div class="column">
+        <div class="box">
+            <a href="/about_me">About Me </a>
         </div>
-    </section>
-</body>
+    </div>
+    <div class="column">
+        <div class="box">
+            <a href="/teaching">Teaching </a>
+        </div>
+    </div>
+    <div class="column">
+        <div class="box">
+            <a href="/projects">Projects </a>
+        </div>
+    </div>
+    <div class="column">
+        <div class="box">
+            <a href="/career">Career </a>
+        </div>
+    </div>
+    <div class="column">
+        <div class="box">
+            <a href="/blog">Blog </a>
+        </div>
+    </div>
+</div>
 
-</html>
+<p class="subtitle">
+    My name is Michael Hackett, I'm a sophomore at the University of Pennsylvania studying computer science and
+    cognitive science. I'm passionate about teaching software engineering to the newest generation of computer
+    scientists while expanding my (very limited) knowledge on the subject. My interests lie in software engineering and
+    its applications in business and neuroscience, with some fiddling in game design and artifical intelligence.
+    </br>
+    This summer, I'll be joining AWS up in Boston.
+</p>
+{% endblock %}
