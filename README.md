@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a personal site that I've created for myself using the **Django** framework in **Python** with the **Bulma** CSS framework to make it like nice. I've published all my code and online for others who are interested in some web dev! Feel free to reach out for documentation on any of the frameworks used, but their documentation is widely available here : [Django] (<https://www.djangoproject.com>), [Bulma] (<https://bulma.io>)
+This is a personal site that I've created for myself using the **Django** framework in **Python** with the **Bulma** CSS framework to make it look nice. I've published all my code and online for others who are interested in some web dev! Feel free to reach out for documentation on any of the frameworks used, but their documentation is widely available here : [Django](<https://www.djangoproject.com>), [Bulma](<https://bulma.io>)
 
 ## Routes
 
