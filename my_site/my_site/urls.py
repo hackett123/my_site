@@ -15,9 +15,14 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from core.views import splash
+from core.views import splash, about_me, teaching, music, projects, career
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', splash, name="splash")
+    path('', splash, name="splash"),
+    path('about_me/', about_me, name="about_me"),
+    path('teaching/', teaching, name="teaching"),
+    path('music/', music, name="music"),
+    path('projects/', projects, name="projects"),
+    path('career/', career, name="career")
 ]
