@@ -33,4 +33,4 @@ Whatever I want to post about!
 
 ## Dependencies
 
-Creation in computer science is done by individuals who stand on the shoulders of giants. This project would not be possible without the vast community of individuals who helped contribute to the Django and Bulma frameworks, and I want to also give thanks to the creator of [Bulmaswatch] (<https://jenil.github.io/bulmaswatch/>) for some great theme modifications.
+Creation in computer science is done by individuals who stand on the shoulders of giants. This project would not be possible without the vast community of individuals who helped contribute to the Django and Bulma frameworks, and I want to also give thanks to the creator of [Bulmaswatch](<https://jenil.github.io/bulmaswatch/>) for some great theme modifications.
